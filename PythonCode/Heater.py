@@ -1,0 +1,2 @@
+def heat(temp):
+    pass
