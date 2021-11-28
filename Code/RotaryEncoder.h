@@ -11,5 +11,6 @@
 #define CLK         2
 
 void Encoder_Init(void (*CallBackFuncSW)(void),void (*CallBackFuncCLK)(void));
+int Encoder_DT_value();
 
 #endif
