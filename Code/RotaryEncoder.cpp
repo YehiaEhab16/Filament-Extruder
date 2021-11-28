@@ -15,3 +15,7 @@ void Encoder_Init(void (*CallBackFuncSW)(void),void (*CallBackFuncCLK)(void))
   attachInterrupt(digitalPinToInterrupt(CLK), CallBackFuncCLK, FALLING);
 }
 
+int Encoder_DT_value()
+{
+  return 0;
+}
