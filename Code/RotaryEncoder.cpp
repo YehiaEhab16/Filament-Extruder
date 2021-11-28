@@ -17,5 +17,5 @@ void Encoder_Init(void (*CallBackFuncSW)(void),void (*CallBackFuncCLK)(void))
 
 int Encoder_DT_value()
 {
-  return 0;
+  return digitalRead(DT);
 }
