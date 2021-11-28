@@ -1,6 +1,7 @@
 #include <Arduino.h>
 #include "RotaryEncoder.h"
 
+//Initializing Pins as input pullup and CLK,SW pins as interrupts
 void Encoder_Init(void (*CallBackFuncSW)(void),void (*CallBackFuncCLK)(void))
 {
   pinMode(CLK, INPUT_PULLUP);
