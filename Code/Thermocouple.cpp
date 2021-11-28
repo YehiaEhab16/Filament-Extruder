@@ -5,4 +5,3 @@ int ThermpocoupleRead(void)
 {
   return 0;
 }
-
